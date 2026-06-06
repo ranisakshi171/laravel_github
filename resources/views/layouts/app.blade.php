@@ -23,7 +23,7 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/main.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/bootstrap.min.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/animate.min.css') }}">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/font-awesome.min.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/flaticon.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('frontend/vendor/owlcarousel/owl.carousel.min.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('frontend/vendor/owlcarousel/owl.theme.default.min.css') }}">

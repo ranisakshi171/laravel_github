@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/normalize.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ asset('frontend/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/flaticon.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
     <style>

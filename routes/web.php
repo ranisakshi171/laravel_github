@@ -11,6 +11,9 @@ use App\Http\Controllers\BrochureController;
 use App\Http\Controllers\CertificationController;
 use App\Http\Controllers\CatalogVideoController;
 use App\Http\Controllers\WhatsAppController;
+use App\Http\Controllers\SearchController;
+use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\FaqController;
 
 // Frontend Routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -26,6 +29,9 @@ Route::get('/page/{slug}', [PageController::class, 'show'])->name('page');
 Route::get('/brochure', [BrochureController::class, 'index'])->name('brochure');
 Route::get('/certifications', [CertificationController::class, 'index'])->name('certifications');
 Route::get('/catalog-videos', [CatalogVideoController::class, 'index'])->name('catalog.videos');
+Route::get('/search', [SearchController::class, 'search'])->name('search');
+Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
+Route::get('/faq', [FaqController::class, 'index'])->name('faq');
 Route::post('/whatsapp', [WhatsAppController::class, 'send'])->name('whatsapp');
 
 // Admin Routes
@@ -58,9 +64,26 @@ Route::prefix('admin')->name('admin.')->middleware(['auth', 'admin'])->group(fun
     Route::post('testimonials', [App\Http\Controllers\Admin\TestimonialController::class, 'store'])->name('testimonials.store');
     Route::put('testimonials/{testimonial}', [App\Http\Controllers\Admin\TestimonialController::class, 'update'])->name('testimonials.update');
     Route::delete('testimonials/{testimonial}', [App\Http\Controllers\Admin\TestimonialController::class, 'destroy'])->name('testimonials.destroy');
+
+    Route::get('reviews', [App\Http\Controllers\Admin\ReviewController::class, 'index'])->name('reviews.index');
+    Route::patch('reviews/{review}/approve', [App\Http\Controllers\Admin\ReviewController::class, 'approve'])->name('reviews.approve');
+    Route::delete('reviews/{review}', [App\Http\Controllers\Admin\ReviewController::class, 'destroy'])->name('reviews.destroy');
+
+    Route::get('galleries', [App\Http\Controllers\Admin\GalleryController::class, 'index'])->name('galleries.index');
+    Route::post('galleries', [App\Http\Controllers\Admin\GalleryController::class, 'store'])->name('galleries.store');
+    Route::put('galleries/{gallery}', [App\Http\Controllers\Admin\GalleryController::class, 'update'])->name('galleries.update');
+    Route::delete('galleries/{gallery}', [App\Http\Controllers\Admin\GalleryController::class, 'destroy'])->name('galleries.destroy');
+
+    Route::get('faqs', [App\Http\Controllers\Admin\FaqController::class, 'index'])->name('faqs.index');
+    Route::post('faqs', [App\Http\Controllers\Admin\FaqController::class, 'store'])->name('faqs.store');
+    Route::put('faqs/{faq}', [App\Http\Controllers\Admin\FaqController::class, 'update'])->name('faqs.update');
+    Route::delete('faqs/{faq}', [App\Http\Controllers\Admin\FaqController::class, 'destroy'])->name('faqs.destroy');
 });
+
+Route::post('/reviews', [App\Http\Controllers\Admin\ReviewController::class, 'store'])->name('reviews.store');
 
 // Authentication Routes
 Route::get('/login', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [App\Http\Controllers\Auth\LoginController::class, 'login']);
 Route::post('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
+

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Admin Panel') - {{ setting('company_name', 'Technocrat Engineering') }}</title>
+    <title>@yield('title', 'Admin Panel') - {{ setting('company_name', 'Nitin Hydraulics') }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
@@ -241,8 +241,11 @@
                     <li><a href="{{ route('admin.pages.index') }}" class="{{ request()->routeIs('admin.pages*') ? 'active' : '' }}"><i class="fa fa-files-o"></i> Pages</a></li>
                     <li><a href="{{ route('admin.contacts.index') }}" class="{{ request()->routeIs('admin.contacts*') ? 'active' : '' }}"><i class="fa fa-envelope"></i> Contacts</a></li>
                     <li><a href="{{ route('admin.testimonials.index') }}" class="{{ request()->routeIs('admin.testimonials*') ? 'active' : '' }}"><i class="fa fa-comments"></i> Testimonials</a></li>
+                    <li><a href="{{ route('admin.reviews.index') }}" class="{{ request()->routeIs('admin.reviews*') ? 'active' : '' }}"><i class="fa fa-star"></i> Reviews</a></li>
                     <li><a href="{{ route('admin.counters.index') }}" class="{{ request()->routeIs('admin.counters*') ? 'active' : '' }}"><i class="fa fa-bar-chart"></i> Counters</a></li>
                     <li><a href="{{ route('admin.about.index') }}" class="{{ request()->routeIs('admin.about*') ? 'active' : '' }}"><i class="fa fa-info-circle"></i> About Us</a></li>
+                    <li><a href="{{ route('admin.galleries.index') }}" class="{{ request()->routeIs('admin.galleries*') ? 'active' : '' }}"><i class="fa fa-image"></i> Gallery</a></li>
+                    <li><a href="{{ route('admin.faqs.index') }}" class="{{ request()->routeIs('admin.faqs*') ? 'active' : '' }}"><i class="fa fa-question-circle"></i> FAQs</a></li>
                     <li><a href="{{ route('admin.settings.index') }}" class="{{ request()->routeIs('admin.settings*') ? 'active' : '' }}"><i class="fa fa-gears"></i> Settings</a></li>
                     <li style="border-top:1px solid rgba(255,255,255,0.1);margin-top:10px;padding-top:10px;">
                         <a href="{{ route('home') }}" target="_blank"><i class="fa fa-external-link"></i> View Site</a>

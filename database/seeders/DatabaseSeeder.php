@@ -19,25 +19,25 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@technoweb.com',
             'password' => bcrypt('admin123'),
             'role' => 'admin',
-            'phone' => '+91 9876543210',
+            'phone' => '+91-8796265233',
         ]);
 
         $settings = [
-            'company_name' => 'Technocrat Engineering',
-            'company_email' => 'info@technowebengg.com',
-            'company_phone' => '+91 9876543210',
-            'company_phone2' => '+91 9876543211',
-            'company_address' => 'No. 123, Industrial Area',
-            'company_city' => 'Coimbatore',
-            'company_state' => 'Tamil Nadu',
-            'company_pincode' => '641006',
+            'company_name' => 'Nitin Hydraulics',
+            'company_email' => 'info@nitinhydraulics.com',
+            'company_phone' => '+91-8796265233',
+            'company_phone2' => '',
+            'company_address' => '1805, Industrial Area, Near Pandit Shree Ram Sharma Metro Station',
+            'company_city' => 'Bahadurgarh',
+            'company_state' => 'Haryana',
+            'company_pincode' => '124507',
             'facebook_url' => 'https://facebook.com',
             'instagram_url' => 'https://instagram.com',
             'linkedin_url' => 'https://linkedin.com',
             'youtube_url' => 'https://youtube.com',
-            'meta_title' => 'Technocrat Engineering - Leading Industrial Machine Manufacturers',
-            'meta_description' => 'Technocrat Engineering is a leading manufacturer of Fly Ash Brick Making Machine, Block Making Machine, and other industrial machines.',
-            'meta_keywords' => 'fly ash brick machine, block making machine, industrial machines, coimbatore',
+            'meta_title' => 'Nitin Hydraulics - Leading Industrial Machine Manufacturers',
+            'meta_description' => 'Nitin Hydraulics is a leading manufacturer of Fly Ash Brick Making Machine, Block Making Machine, and other industrial machines.',
+            'meta_keywords' => 'fly ash brick machine, block making machine, industrial machines, bahadurgarh',
         ];
 
         foreach ($settings as $key => $value) {
@@ -45,8 +45,8 @@ class DatabaseSeeder extends Seeder
         }
 
         AboutUs::create([
-            'title' => 'Welcome to Technocrat Engineering',
-            'description' => "Technocrat Engineering is a leading manufacturer of industrial machines based in Coimbatore, Tamil Nadu. We specialize in manufacturing high-quality Fly Ash Brick Making Machines, Block Making Machines, Vibro Forming Tables, Interlocking Brick Making Machines, Pan Mixers, and more. Our machines are known for their durability, efficiency, and superior performance. With years of experience and a team of highly skilled engineers, we strive to provide the best solutions to our customers. We use advanced technology and high-quality materials to ensure our products meet the highest industry standards.",
+            'title' => 'Welcome to Nitin Hydraulics',
+            'description' => "Nitin Hydraulics is a leading manufacturer of industrial machines based in Bahadurgarh, Haryana. We specialize in manufacturing high-quality Fly Ash Brick Making Machines, Block Making Machines, Vibro Forming Tables, Interlocking Brick Making Machines, Pan Mixers, and more. Our machines are known for their durability, efficiency, and superior performance. With years of experience and a team of highly skilled engineers, we strive to provide the best solutions to our customers. We use advanced technology and high-quality materials to ensure our products meet the highest industry standards.",
             'mission' => 'To provide innovative and reliable industrial machines that enhance productivity and efficiency for our customers.',
             'vision' => 'To become a globally recognized leader in industrial machine manufacturing through continuous innovation and customer satisfaction.',
             'video_url' => 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',

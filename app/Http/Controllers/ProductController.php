@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use App\Models\Category;
+use App\Models\Review;
 
 class ProductController extends Controller
 {
@@ -16,9 +17,11 @@ class ProductController extends Controller
 
     public function category(string $slug)
     {
-        $category = Category::where('slug', $slug)->where('status', true)->firstOrFail();
         $categories = Category::where('status', true)->orderBy('sort_order')->get();
-        $products = Product::where('category_id', $category->id)->where('status', true)->orderBy('sort_order')->paginate(12);
+        $category = $categories->firstWhere('slug', $slug);
+        $products = $category
+            ? Product::where('category_id', $category->id)->where('status', true)->orderBy('sort_order')->paginate(12)
+            : Product::where('status', true)->orderBy('sort_order')->paginate(12);
         return view('products', compact('categories', 'products', 'category'));
     }
 
@@ -30,6 +33,8 @@ class ProductController extends Controller
             ->where('status', true)
             ->limit(4)
             ->get();
-        return view('product-detail', compact('product', 'relatedProducts'));
+        $reviews = Review::where('product_id', $product->id)->where('status', true)->orderBy('created_at', 'desc')->get();
+        $avgRating = $reviews->avg('rating');
+        return view('product-detail', compact('product', 'relatedProducts', 'reviews', 'avgRating'));
     }
 }

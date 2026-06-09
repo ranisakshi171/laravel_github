@@ -5,12 +5,12 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="footer-box">
                         <div class="footer-logo">
-                            <a href="{{ route('home') }}" title="{{ setting('company_name', 'Technocrat Engineering') }}">
-                                <img src="{{ asset('frontend/images/footer-logo.png') }}" alt="Logo - {{ setting('company_name', 'Technocrat Engineering') }}" class="img-fluid" />
+                            <a href="{{ route('home') }}" title="{{ setting('company_name', 'Nitin Hydraulics') }}">
+                                <img src="{{ asset('frontend/images/footer-logo.png') }}" alt="Logo - {{ setting('company_name', 'Nitin Hydraulics') }}" class="img-fluid" />
                             </a>
                         </div>
                         <div class="footer-about">
-                            <p>&#x0201C;{{ setting('company_name', 'Technocrat Engineering') }}&#x0201D; are the leading manufacturer of a wide range of Fly Ash Brick Making Machine, Block Making Machine, Vibro Forming Table, Interlocking Brick Making Machine, etc. We also offer Fly Ash Bricks Machine Installation Service.</p>
+                            <p>&#x0201C;{{ setting('company_name', 'Nitin Hydraulics') }}&#x0201D; are the leading manufacturer of a wide range of Fly Ash Brick Making Machine, Block Making Machine, Vibro Forming Table, Interlocking Brick Making Machine, etc. We also offer Fly Ash Bricks Machine Installation Service.</p>
                         </div>
                         <ul class="footer-social">
                             @if(setting('facebook_url'))
@@ -33,6 +33,8 @@
                         <h3 class="title-bar-footer">Useful Links</h3>
                         <ul class="recent-post-link">
                             <li><a href="{{ route('about') }}">Company Profile</a></li>
+                            <li><a href="{{ route('gallery') }}">Gallery</a></li>
+                            <li><a href="{{ route('faq') }}">FAQ</a></li>
                             <li><a href="{{ route('blog') }}">Blog</a></li>
                             <li><a href="{{ route('page', 'sitemap') }}">Sitemap</a></li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>
@@ -60,8 +62,7 @@
                             @if(setting('company_address'))
                             <li>
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>{{ setting('company_address') }},<br>
-                                {{ setting('company_city') }}, {{ setting('company_state') }},<br>
-                                {{ setting('company_city2') ?? '' }} - {{ setting('company_pincode') }}.
+                                {{ setting('company_city') }}, {{ setting('company_state') }}@if(setting('company_city2')), {{ setting('company_city2') }}@endif - {{ setting('company_pincode') }}.
                             </li>
                             @endif
                             @if(setting('company_phone'))
@@ -87,7 +88,7 @@
     </div>
     <div class="footer-area-bottom">
         <div class="container">
-            <p>&#x000A9; {{ date('Y') }} {{ setting('company_name', 'Technocrat Engineering') }}. All Rights Reserved.</p>
+            <p>&#x000A9; {{ date('Y') }} {{ setting('company_name', 'Nitin Hydraulics') }}. All Rights Reserved.</p>
         </div>
     </div>
 </footer>

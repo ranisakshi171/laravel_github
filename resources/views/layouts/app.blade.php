@@ -6,14 +6,14 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="MobileOptimized" content="width">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>@yield('title', 'Technocrat Engineering - Fly Ash Bricks Machine Manufacturers in Coimbatore')</title>
+<title>@yield('title', 'Nitin Hydraulics - Fly Ash Bricks Machine Manufacturers in Coimbatore')</title>
 <meta name="description" content="@yield('meta_description', 'Fly Ash Bricks Machine Manufacturers in Coimbatore, Fly Ash Brick Making Machine in Coimbatore, Fly Ash Brick Making Machine Manufacturers in Coimbatore')">
 <meta name="keywords" content="@yield('meta_keywords', 'Fly Ash Bricks Machine Manufacturers in Coimbatore, Fly Ash Brick Making Machine in Coimbatore, Fly Ash Brick Making Machine Manufacturers in Coimbatore')">
 <link rel="canonical" href="{{ url()->current() }}"/>
 <meta name="robots" content="index, follow">
 <meta name="googlebot" content="index">
 <meta name="googlebot-news" content="index">
-<meta name="author" content="Technocrat Engineering">
+<meta name="author" content="Nitin Hydraulics">
 <meta name="audience" content="all">
 <link href="{{ asset('frontend/images/favicon.png') }}" rel="icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -81,8 +81,8 @@
     <!-- WhatsApp Chat Widget -->
     <div id='chat-box'>
         <div id='chat-top'>
-            <img src="{{ asset('frontend/images/favicon.png') }}" alt="{{ setting('company_name') ?? 'Technocrat Engineering' }}" class="chat-logo" />
-            <span class="ml-1">{{ setting('company_name') ?? 'Technocrat Engineering' }}</span>
+            <img src="{{ asset('frontend/images/favicon.png') }}" alt="{{ setting('company_name') ?? 'Nitin Hydraulics' }}" class="chat-logo" />
+            <span class="ml-1">{{ setting('company_name') ?? 'Nitin Hydraulics' }}</span>
             <span id='chat-top-right'>
                 <svg id='close-box' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48">
                     <path d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z" fill='#fff'/>

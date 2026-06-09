@@ -48,6 +48,71 @@
     </div>
 </section>
 
+<!-- Reviews Section -->
+<section class="section-space-equal bg-light">
+    <div class="container">
+        <h2 class="section-title-dark">Customer Reviews</h2>
+        <div class="row mt-30">
+            <div class="col-lg-7">
+                @forelse($reviews as $review)
+                <div class="review-item mb-20" style="border-bottom:1px solid #eee;padding-bottom:15px;">
+                    <div style="display:flex;justify-content:space-between;align-items:center;">
+                        <strong>{{ $review->name }}</strong>
+                        <span>
+                            @for($i = 0; $i < $review->rating; $i++)
+                            <i class="fa fa-star" style="color:#ffbe00;"></i>
+                            @endfor
+                            @for($i = $review->rating; $i < 5; $i++)
+                            <i class="fa fa-star" style="color:#ddd;"></i>
+                            @endfor
+                        </span>
+                    </div>
+                    <p class="mt-10 mb-0">{{ $review->comment }}</p>
+                    <small class="text-muted">{{ $review->created_at->format('d M Y') }}</small>
+                </div>
+                @empty
+                <p>No reviews yet. Be the first to review!</p>
+                @endforelse
+            </div>
+            <div class="col-lg-5">
+                <div class="review-form-box" style="background:#f8f8f8;padding:25px;border-radius:5px;">
+                    <h4 style="margin-bottom:15px;font-size:18px;font-weight:600;color:#1a1a2e;">Write a Review</h4>
+                    @if(session('success'))
+                    <div class="alert alert-success">{{ session('success') }}</div>
+                    @endif
+                    <form method="POST" action="{{ route('reviews.store') }}">
+                        @csrf
+                        <input type="hidden" name="product_id" value="{{ $product->id }}">
+                        <div class="form-group">
+                            <label>Name *</label>
+                            <input type="text" name="name" class="form-control" required style="border-radius:0;height:40px;">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" class="form-control" style="border-radius:0;height:40px;">
+                        </div>
+                        <div class="form-group">
+                            <label>Rating *</label>
+                            <select name="rating" class="form-control" required style="border-radius:0;height:40px;">
+                                <option value="5">5 Stars</option>
+                                <option value="4">4 Stars</option>
+                                <option value="3">3 Stars</option>
+                                <option value="2">2 Stars</option>
+                                <option value="1">1 Star</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Comment *</label>
+                            <textarea name="comment" class="form-control" rows="4" required style="border-radius:0;"></textarea>
+                        </div>
+                        <button type="submit" class="fill-btn">Submit Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 @if($relatedProducts->count() > 0)
 <section class="section-space-equal bg-accent">
     <div class="container">

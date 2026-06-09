@@ -35,7 +35,7 @@
     /*-------------------------------------
      jQuery MeanMenu activation code
      --------------------------------------*/
-    $('nav#dropdown').meanmenu({siteLogo: "<a href='https://www.technocratengineering.in/'><img src='../assets/frontend/images/logo.png' alt='Technocrat Engineering' class='img-fluid mobile-logo'></a>"});
+    $('nav#dropdown').meanmenu({siteLogo: "<a href='/'><img src='/frontend/images/logo.png' alt='Nitin Hydraulics' class='img-fluid mobile-logo'></a>"});
 
     /*-------------------------------------
      Wow js Active

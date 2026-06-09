@@ -13,7 +13,7 @@ class WhatsAppController extends Controller
             'social_phone' => 'required|digits:10',
         ]);
 
-        $phone = setting('company_phone') ?? '9092306265';
+        $phone = setting('company_phone') ?? '8796265233';
         $name = $request->social_name;
         $message = "Hi, I am $name. I am interested in your products.";
 

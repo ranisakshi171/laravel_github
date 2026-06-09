@@ -66,9 +66,9 @@ $blogImages = [
                 <h2>Fly Ash Brick Production Machine Manufacturers in India</h2>
                 <ul class="m360-post-meta">
                     <li><i class="fa fa-calendar"></i> 19 May 2026</li>
-                    <li><i class="fa fa-user"></i> Technocrat Engineering</li>
+                    <li><i class="fa fa-user"></i> Nitin Hydraulics</li>
                 </ul>
-                <p>Technocrat Engineering is a leading Fly Ash Brick Production Machine manufacturer in India, offering durable and high-performance machines for efficient brick manufacturing. Our machines ensure high production capacity, uniform brick quality, and reliable performance, making them ideal for modern construction industries.</p>
+                <p>Nitin Hydraulics is a leading Fly Ash Brick Production Machine manufacturer in India, offering durable and high-performance machines for efficient brick manufacturing. Our machines ensure high production capacity, uniform brick quality, and reliable performance, making them ideal for modern construction industries.</p>
                 <a href="#">Read More</a>
             </div>
         </article>
@@ -80,9 +80,9 @@ $blogImages = [
                 <h2>Automatic Fly Ash Brick Machine Manufacturers in Coimbatore</h2>
                 <ul class="m360-post-meta">
                     <li><i class="fa fa-calendar"></i> 20 Apr 2026</li>
-                    <li><i class="fa fa-user"></i> Technocrat Engineering</li>
+                    <li><i class="fa fa-user"></i> Nitin Hydraulics</li>
                 </ul>
-                <p>Technocrat Engineering is a leading Automatic Fly Ash Brick Machine Manufacturer in Coimbatore, offering high-performance machines for efficient and eco-friendly brick production. Our machines ensure consistent brick quality, high output, and reduced labor costs, making them ideal for modern construction and infrastructure projects.</p>
+                <p>Nitin Hydraulics is a leading Automatic Fly Ash Brick Machine Manufacturer in Coimbatore, offering high-performance machines for efficient and eco-friendly brick production. Our machines ensure consistent brick quality, high output, and reduced labor costs, making them ideal for modern construction and infrastructure projects.</p>
                 <a href="#">Read More</a>
             </div>
         </article>
@@ -94,9 +94,9 @@ $blogImages = [
                 <h2>Hydraulic Pan Mixer Machine Sellers in Tamil Nadu</h2>
                 <ul class="m360-post-meta">
                     <li><i class="fa fa-calendar"></i> 21 Mar 2026</li>
-                    <li><i class="fa fa-user"></i> Technocrat Engineering</li>
+                    <li><i class="fa fa-user"></i> Nitin Hydraulics</li>
                 </ul>
-                <p>Technocrat Engineering is a leading Hydraulic Pan Mixer Machine seller in Tamil Nadu, offering high-performance machines for concrete and brick manufacturing. Our mixers ensure uniform material blending, faster production, and durable operation. Ideal for fly ash brick plants and construction industries, we provide reliable and energy-efficient mixing solutions.</p>
+                <p>Nitin Hydraulics is a leading Hydraulic Pan Mixer Machine seller in Tamil Nadu, offering high-performance machines for concrete and brick manufacturing. Our mixers ensure uniform material blending, faster production, and durable operation. Ideal for fly ash brick plants and construction industries, we provide reliable and energy-efficient mixing solutions.</p>
                 <a href="#">Read More</a>
             </div>
         </article>

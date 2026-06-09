@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', setting('meta_title', 'Technocrat Engineering - Fly Ash Bricks Machine Manufacturers in Coimbatore'))
+@section('title', setting('meta_title', 'Nitin Hydraulics - Fly Ash Bricks Machine Manufacturers in Coimbatore'))
 @section('meta_description', setting('meta_description', 'Fly Ash Bricks Machine Manufacturers in Coimbatore, Fly Ash Brick Making Machine in Coimbatore, Fly Ash Brick Making Machine Manufacturers in Coimbatore'))
 @section('meta_keywords', setting('meta_keywords', 'Fly Ash Bricks Machine Manufacturers in Coimbatore, Fly Ash Brick Making Machine in Coimbatore, Fly Ash Brick Making Machine Manufacturers in Coimbatore'))
 
@@ -28,7 +28,7 @@
                     <h2>We offer <span>Complete Solution</span></h2>
                 </li>
                 <li class="we-offer-cont2">
-                    <p>&#x0201C;{{ setting('company_name', 'Technocrat Engineering') }}&#x0201D; are the leading manufacturer of a wide range of Fly Ash Brick Making Machine, Block Making Machine, Vibro Forming Table, Interlocking Brick Making Machine, Mixer Machine, PLC Control System and Fly Ash Brick Mould.</p>
+                    <p>&#x0201C;{{ setting('company_name', 'Nitin Hydraulics') }}&#x0201D; are the leading manufacturer of a wide range of Fly Ash Brick Making Machine, Block Making Machine, Vibro Forming Table, Interlocking Brick Making Machine, Mixer Machine, PLC Control System and Fly Ash Brick Mould.</p>
                 </li>
             </ul>
         </div>
@@ -68,7 +68,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
-                <img src="{{ asset('frontend/images/banners/footprint.jpg') }}" class="img-fluid width-100" alt="Our Footprint - {{ setting('company_name', 'Technocrat Engineering') }}" />
+                <img src="{{ asset('frontend/images/banners/footprint.jpg') }}" class="img-fluid width-100" alt="Our Footprint - {{ setting('company_name', 'Nitin Hydraulics') }}" />
             </div>
         </div>
     </div>
@@ -79,14 +79,14 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
                 <div class="inner-title-dark lead">
-                    <h2>What We Do? <span>{{ setting('company_name', 'Technocrat Engineering') }}</span></h2>
-                    <p>At <b>{{ setting('company_name', 'Technocrat Engineering') }}</b>, we are a customer-centric company committed to creating a positive impact through our <b>advanced Fly Ash Brick Machines</b>. Our intelligent approach to brick production and productivity solutions ensures efficiency, durability, and superior performance. By integrating modern technology and engineering, our machines are widely trusted in the infrastructure and construction industries for various commercial and industrial applications. We prioritize quality at every stage, ensuring our products meet the highest industry standards.</p>
+                    <h2>What We Do? <span>{{ setting('company_name', 'Nitin Hydraulics') }}</span></h2>
+                    <p>At <b>{{ setting('company_name', 'Nitin Hydraulics') }}</b>, we are a customer-centric company committed to creating a positive impact through our <b>advanced Fly Ash Brick Machines</b>. Our intelligent approach to brick production and productivity solutions ensures efficiency, durability, and superior performance. By integrating modern technology and engineering, our machines are widely trusted in the infrastructure and construction industries for various commercial and industrial applications. We prioritize quality at every stage, ensuring our products meet the highest industry standards.</p>
                     <a href="{{ route('about') }}" class="fill-btn mt-30">Read More</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-30 wow fadeInRight" data-wow-duration="2s" data-wow-delay=".2s">
                 <div class="overlay-default">
-                    <img src="{{ asset('frontend/images/banners/video.jpg') }}" class="img-fluid width-100" alt="What We Do - {{ setting('company_name', 'Technocrat Engineering') }}" />
+                    <img src="{{ asset('frontend/images/banners/video.jpg') }}" class="img-fluid width-100" alt="What We Do - {{ setting('company_name', 'Nitin Hydraulics') }}" />
                     <a class="popup-youtube" href="https://www.youtube.com/watch?time_continue=5&v=p1C8jK_ObCY">
                         <div class="button is-play">
                             <div class="yt-button-icon">
@@ -289,7 +289,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-user-o" aria-hidden="true"></i>{{ $blog->author ?? setting('company_name', 'Technocrat Engineering') }}</a>
+                                    <i class="fa fa-user-o" aria-hidden="true"></i>{{ $blog->author ?? setting('company_name', 'Nitin Hydraulics') }}</a>
                             </li>
                         </ul>
                     </div>
@@ -311,12 +311,12 @@
                         </figure>
                         <ul class="published-date-comment">
                             <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i>19 May 2026</a></li>
-                            <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>Technocrat Engineering</a></li>
+                            <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>Nitin Hydraulics</a></li>
                         </ul>
                     </div>
                     <div class="item-content">
                         <h3 class="blog-title"><a href="#">Fly Ash Brick Production Machine Manufacturers in India</a></h3>
-                        <p>Technocrat Engineering is a leading Fly Ash Brick Production Machine manufacturer in India, offering durable and high-performance machines for efficient brick manufacturing.</p>
+                        <p>Nitin Hydraulics is a leading Fly Ash Brick Production Machine manufacturer in India, offering durable and high-performance machines for efficient brick manufacturing.</p>
                         <a href="#" class="read-more-btn">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -329,12 +329,12 @@
                         </figure>
                         <ul class="published-date-comment">
                             <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i>20 Apr 2026</a></li>
-                            <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>Technocrat Engineering</a></li>
+                            <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>Nitin Hydraulics</a></li>
                         </ul>
                     </div>
                     <div class="item-content">
                         <h3 class="blog-title"><a href="#">Automatic Fly Ash Brick Machine Manufacturers in Coimbatore</a></h3>
-                        <p>Technocrat Engineering is a leading Automatic Fly Ash Brick Machine Manufacturer in Coimbatore, offering high-performance machines for efficient and eco-friendly brick production.</p>
+                        <p>Nitin Hydraulics is a leading Automatic Fly Ash Brick Machine Manufacturer in Coimbatore, offering high-performance machines for efficient and eco-friendly brick production.</p>
                         <a href="#" class="read-more-btn">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -347,12 +347,12 @@
                         </figure>
                         <ul class="published-date-comment">
                             <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i>21 Mar 2026</a></li>
-                            <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>Technocrat Engineering</a></li>
+                            <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>Nitin Hydraulics</a></li>
                         </ul>
                     </div>
                     <div class="item-content">
                         <h3 class="blog-title"><a href="#">Hydraulic Pan Mixer Machine Sellers in Tamil Nadu</a></h3>
-                        <p>Technocrat Engineering is a leading Hydraulic Pan Mixer Machine seller in Tamil Nadu, offering high-performance machines for concrete and brick manufacturing.</p>
+                        <p>Nitin Hydraulics is a leading Hydraulic Pan Mixer Machine seller in Tamil Nadu, offering high-performance machines for concrete and brick manufacturing.</p>
                         <a href="#" class="read-more-btn">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div>
                 </div>

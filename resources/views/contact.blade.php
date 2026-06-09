@@ -29,18 +29,15 @@
             <div class="col-lg-5 col-md-12 mb-30">
                 <div class="contact-info-area">
                     <h2 class="section-title-dark text-left title-bar-primary">Contact Information</h2>
-                    <p>Technocrat Engineering is a leading manufacturer of Fly Ash Brick Machines, Pan Mixers, Vibro Forming Tables, Block Making Machines, and Interlocking Brick Making Machines. Contact us for reliable and cost-effective machinery tailored to your needs.</p>
+                    <p>Nitin Hydraulics is a leading manufacturer of Fly Ash Brick Machines, Pan Mixers, Vibro Forming Tables, Block Making Machines, and Interlocking Brick Making Machines. Contact us for reliable and cost-effective machinery tailored to your needs.</p>
                     <ul class="company-information">
                         <li>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i> No. 314/4, Jayaprakash Nagar,<br>
-Ganapathy, Ganapathypudur,<br>
-Coimbatore - 641006.</li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> 1805, Industrial Area, Near Pandit Shree Ram Sharma Metro Station,<br>
+Bahadurgarh, Haryana—124507, India.</li>
                         <li>
-                            <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+91 9092306265">+91 9092306265</a></li>
+                            <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+91-8796265233">+91-8796265233</a></li>
                         <li>
-                            <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+91 9092085377">+91 9092085377</a></li>
-                        <li>
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:technocratzengineering@gmail.com">technocratzengineering@gmail.com</a></li>
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:info@nitinhydraulics.com">info@nitinhydraulics.com</a></li>
                     </ul>
                 </div>
             </div>

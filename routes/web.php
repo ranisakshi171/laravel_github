@@ -14,6 +14,7 @@ use App\Http\Controllers\WhatsAppController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\FaqController;
+use Illuminate\Support\Facades\DB;
 
 // Frontend Routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -78,6 +79,24 @@ Route::prefix('admin')->name('admin.')->middleware(['auth', 'admin'])->group(fun
     Route::post('faqs', [App\Http\Controllers\Admin\FaqController::class, 'store'])->name('faqs.store');
     Route::put('faqs/{faq}', [App\Http\Controllers\Admin\FaqController::class, 'update'])->name('faqs.update');
     Route::delete('faqs/{faq}', [App\Http\Controllers\Admin\FaqController::class, 'destroy'])->name('faqs.destroy');
+});
+
+
+
+Route::get('/db-test', function () {
+    try {
+        DB::connection()->getPdo();
+
+        return [
+            'status' => 'success',
+            'message' => 'Database Connected'
+        ];
+    } catch (\Exception $e) {
+        return [
+            'status' => 'error',
+            'message' => $e->getMessage()
+        ];
+    }
 });
 
 Route::post('/reviews', [App\Http\Controllers\Admin\ReviewController::class, 'store'])->name('reviews.store');
